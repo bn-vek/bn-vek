@@ -28,6 +28,7 @@ class stackADT {
 		virtual bool empty() const = 0;
 };
 
+//Need to modify this to give an option of allocator 
 template <class T>
 class stack:public stackADT<T> {
 	int sz;
